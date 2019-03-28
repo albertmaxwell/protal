@@ -4,9 +4,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
 
-
-
-
         <artifactId>protal</artifactId>
         <groupId>com.ocean.group</groupId>
 
@@ -36,11 +33,6 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.ocean.group</groupId>
-            <artifactId>ocean_protal_web</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
 
         <dependency>
             <groupId>com.ocean.group</groupId>
@@ -48,11 +40,6 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.chinapost</groupId>
-            <artifactId>post-manager-service</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
@@ -62,6 +49,13 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>3.2.8.RELEASE</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
