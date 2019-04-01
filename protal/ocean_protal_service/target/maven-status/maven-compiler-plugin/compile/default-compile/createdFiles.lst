@@ -1,1 +1,2 @@
-com\ocean\group\App.class
+com\ocean\serviceImp\BasicInfoServiceImpl.class
+com\ocean\service\BasicInfoService.class
